@@ -14,14 +14,14 @@ validate: (value) => { if(value){return true} else {return 'You must enter a val
 {
 type: "input",
 message: "Enter your table of contents here:",
-name: "table of contents",
+name: "tableofcontents",
 validate: (value) => { if(value){return true} else {return 'You must enter a value to continue'}}
 },
 
 {
 type: 'input',
 message: "Please provide a description of your project.",
-name: "Description",
+name: "description",
 validate: (value) => { if(value){return true} else {return 'You must enter a value to continue.'}}    
 },
 
@@ -42,7 +42,7 @@ validate: (value) => { if(value){return true} else {return 'You must enter a val
 {
 type: 'list',
 message: 'Which license did you use for this project?',
-name: 'License',
+name: 'license',
 choices: ['MIT', 'GPL', 'Apache'],
 validate: (value) => { if(value){return true} else {return 'You must enter a value to continue.'}}
 },
@@ -50,7 +50,7 @@ validate: (value) => { if(value){return true} else {return 'You must enter a val
 {
 type: 'input',
 message: 'What were the steps for contributing to this project?',
-name: 'Contributing',
+name: 'contributing',
 validate: (value) => { if(value){return true} else {return 'You must enter a value to continue'}}
 },
 
@@ -74,7 +74,7 @@ function init() {
     inquirer.prompt(questions)
 .then((data) => {
 let content = generateMarkdown(data)
-writeToFile('readme.MD', content)
+writeToFile('README.md', content)
 }).catch(function(err) {
 console.log(err)
 })
