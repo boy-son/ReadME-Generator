@@ -1,4 +1,5 @@
 # readME Generator
+
   [![license: MPL 2.0](https://img.shields.io/badge/license-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   # Table of Contents
   *[Description](#description)
@@ -9,23 +10,24 @@
   *[Tests](#tests)
 
   
-  ##title:
+  ## title
   readME Generator
 
-  ##description:
+  ## description
   a terminal program that generates a readME with a provided structure
  
-  ##installation:
+  ## installation
   node index.js
  
-  ##usage:
+  ## usage
   to generate a readME without having to structure it 
 
   ## license
+
 [MIT](#license)
 
-  ##contributing:
+  ## contributing
   git add commit push
 
-  ##testing:
+  ## testing:
   node index.js and check error logs
