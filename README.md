@@ -1,5 +1,4 @@
-# readME Generator
-
+# README Generator
   [![license: MPL 2.0](https://img.shields.io/badge/license-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   # Table of Contents
   *[Description](#description)
@@ -11,23 +10,28 @@
 
   
   ## title
-  readME Generator
+
+  README Generator
 
   ## description
-  a terminal program that generates a readME with a provided structure
+
+  a README generator that predefines sections
  
   ## installation
-  node index.js
+
+  git pull, run node index, fill prompt
  
   ## usage
-  to generate a readME without having to structure it 
+
+  to help making readmes easier
 
   ## license
-
 [MIT](#license)
 
   ## contributing
-  git add commit push
 
-  ## testing:
-  node index.js and check error logs
+  git pull, git add, git commit, git push
+
+  ## testing
+  
+  run node index and check generated readme to see if it's correctly formatted

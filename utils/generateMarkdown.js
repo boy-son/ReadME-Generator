@@ -47,29 +47,29 @@ function generateMarkdown(data) {
   *[Tests](#tests)
 
   
-  ##title
+  ## title
 
   ${data.title}
 
-  ##description
+  ## description
 
   ${data.description}
  
-  ##installation
+  ## installation
 
   ${data.installation}
  
-  ##usage
+  ## usage
 
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
 
-  ##contributing
+  ## contributing
 
   ${data.contributing}
 
-  ##testing
+  ## testing
   
   ${data.testing}
 `;
