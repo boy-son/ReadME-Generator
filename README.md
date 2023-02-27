@@ -1,5 +1,5 @@
 # README Generator
-  [![license: MPL 2.0](https://img.shields.io/badge/license-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![license: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   # Table of Contents
   *[Description](#description)
   *[Installation](#installation)
@@ -15,23 +15,23 @@
 
   ## description
 
-  a README generator that predefines sections
+  A README Generator that helps to structure and predefine sections for easier use.
  
   ## installation
 
-  git pull, run node index, fill prompt
+  clone this repository to your local machine, npm install, run node index, and follow the instructions.
  
   ## usage
 
-  to help making readmes easier
+  to help make making READMEs much easier and quicker.
 
   ## license
-[MIT](#license)
+[GPL](#license)
 
   ## contributing
 
-  git pull, git add, git commit, git push
+  git pull, git add, git commit, and git push.
 
   ## testing
   
-  run node index and check generated readme to see if it's correctly formatted
+  run node index, follow the instructions, and look at the generated readme. repeat until satisfied.
